@@ -44,7 +44,7 @@ Listing after turning on recurse we discover many empty files and 2 kdbx files i
 
 ![](screenshots/Pasted%20image%2020260213120454.png)
 
-Using keep2john to extract the hash and cracking them, we find the password for database2: “50cent”
+Using keepass2john to extract the hash and cracking them, we find the password for database2: “50cent”
 
 ![](screenshots/Pasted%20image%2020260213120830.png)
 
